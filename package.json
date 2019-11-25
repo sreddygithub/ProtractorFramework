@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test code",
+  "main": "index.js",
+  "dependencies": {
+    "protractor": "^5.4.2",
+    "jasmine": "^3.2.1",
+    "mocha": "^6.2.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "protractortest": "protractor ..//conf//conf.js"
+  },
+  "author": "Srini",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-allure-reporter": "^1.0.2",
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0"
+  }
+}
